@@ -1,11 +1,14 @@
 import "./App.css";
-import Card from "./Components/Card";
 
 function App() {
   return (
     <div className="App">
-      <div className="grid">
-        <Card />
+      <div className="container">
+        <div className="header">Header</div>
+        <div className="content-large">Content #1</div>
+        <div className="content-small">content #2</div>
+        <div className="content-small">content #3</div>
+        <div className="footer">Content #4</div>
       </div>
     </div>
   );
