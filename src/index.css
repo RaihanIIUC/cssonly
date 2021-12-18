@@ -1,45 +1,84 @@
-*,*::after, *::before {
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-.maindiv{
-  width: 100%;
-  height: 100vh;
+body {
+  background: rgba(155, 156, 146, 0.486);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.card > * {
+  /* flex-basis: 100%;
+   */
+  flex: 1 1 10em;
+}
+/* card > *:nth-child(1){
+  flex : 1 1 70%;
+  min-width: 15ch;
+  max-width: 15ch;
 }
 
-.div1 {
-  widht: 300px;
-  height: 200px;
-  padding: 50px;
-  background-color: rgb(90, 226, 163);
-  border: 10px solid rgb(69, 67, 206);
-} 
+card > *:nth-child(2){
+  flex : 1 1 30%;
+} */
 
-.div2 {
-  widht: 300px;
-  height: 200px;
-  padding: 50px;
-  background-color: rgb(223, 188, 35);
-  border: 10px solid rgb(69, 67, 206);
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
 }
 
-.div3 {
-  widht: 300px;
-  height: 200px;
-  padding: 50px;
-  background-color: rgb(177, 14, 136);
-  border: 10px solid rgb(69, 67, 206);
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
 }
 
-.div4 {
-  widht: 300px;
-  height: 200px;
-  padding: 120px;
-  background-color: rgb(41, 61, 2);
-  border: 10px solid rgb(69, 67, 206);
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
 }
