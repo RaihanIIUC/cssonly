@@ -1,4 +1,4 @@
-* {
+*,*::after, *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,7 +18,7 @@
   padding: 50px;
   background-color: rgb(90, 226, 163);
   border: 10px solid rgb(69, 67, 206);
-}
+} 
 
 .div2 {
   widht: 300px;
