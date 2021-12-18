@@ -2,15 +2,12 @@ import "./App.css";
 
 function App() {
   return (
-    <main>
-      <div className="div1">header</div>
-      <div className="div2">box1</div>
-      <div className="div3">box2</div>
-      <div className="div4">box3</div>
-      <div className="div5">sidebar</div>
-      <div className="div6">main content</div>
-      <div className="div7">footer</div>
-    </main>
+    <div className="maindiv">
+      <div className="div1">Box 1</div>
+      <div className="div2">Box 2</div>
+      <div className="div3">Box 3</div>
+      <div className="div4">Box 4</div>
+    </div>
   );
 }
 
