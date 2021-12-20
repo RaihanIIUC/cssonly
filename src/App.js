@@ -1,13 +1,15 @@
 import "./App.css";
- import Header from "./components/Header";
-
+import Featured from "./components/FeaturedComponents/Featured";
+ import Header from "./components/HeaderComponents/Header";
 function App() {
   return (
    <body>
-    <Header />
+    <Header />  
+    <Featured />    
     
    </body>
   );
 }
 
 export default App;
+  

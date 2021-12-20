@@ -1,13 +1,13 @@
 import React from "react";
 
-import LOGO from "../assets/images/logo.png";
-import CART from '../assets/images/cart.png';
+import LOGO from "../../assets/images/logo.png";
+import CART from '../../assets/images/cart.png';
 
 function Navbar() {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src={LOGO} alt="logo" width="125" />
+        <       img src={LOGO} alt="logo" width="125" />
       </div>
 
       <nav>

@@ -1,8 +1,8 @@
 import React from 'react'
-import Banner from './Banner'
+ import Banner from './Banner' 
 import Navbar from './Navbar'
 
-function Header() {
+ function Header() {
     return (
         <div className='header'>
 
@@ -16,3 +16,4 @@ function Header() {
 }
 
 export default Header
+                

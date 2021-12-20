@@ -1,7 +1,6 @@
 import React from 'react'
-import BANNER from '../assets/images/image1.png'
-
-function Banner() {
+import BANNER from '../../assets/images/image1.png'
+ function Banner() {
     return (
              <div className="row">
           <div className="col_2">
@@ -13,7 +12,7 @@ function Banner() {
             </p>
             <a href="" className="btn">Explore Now &#8594;</a>
           </div>
-
+            
           <div className="col_2">
             <img src={BANNER} alt="" />
           </div>
