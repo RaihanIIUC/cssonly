@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .navbar {
@@ -18,7 +32,6 @@ nav {
 nav ul {
   display: inline-block;
   list-style-type: none;
-  gap: ;
 }
 
 nav ul li {
@@ -34,3 +47,50 @@ a {
 p {
   color: #555;
 }
+
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col_2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col_2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col_2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  
+}
+
+.btn:hover{
+  background:#554444 ;
+}
+
+.header{
+    background: radial-gradient(#85ad7312, #12c31261);
+}
+
+.header .row{
+  margin-top: 70px;
+}
+
