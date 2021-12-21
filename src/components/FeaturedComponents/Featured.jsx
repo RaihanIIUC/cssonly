@@ -12,9 +12,8 @@ function Featured() {
             <FeaturedCategory />
             <FeaturedProduct />
             <RecentProduct />
-         </div>
-         <Offer />
-        </div>
+         </div> 
+        </div>  
     )
 }
 
