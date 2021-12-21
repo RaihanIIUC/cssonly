@@ -8,8 +8,22 @@ import CATEGORY3 from '../../assets/images/category-3.jpg';
 
 function FeaturedCategory() {
     return (
-        <div className="row">
+        <div>
+            <h2 className="title">Featured Category</h2>
 
+            <div className="row">
+                <div className="col_3">
+                    <img src={CATEGORY1} alt="" />
+                </div>
+
+                <div className="col_3">
+                    <img src={CATEGORY2} alt="" />
+                </div>
+
+                <div className="col_3">
+                    <img src={CATEGORY3} alt="" />
+                </div>
+            </div>
         </div>
     )
 }

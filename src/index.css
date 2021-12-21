@@ -13,8 +13,9 @@ body {
 .container {
   max-width: 1300px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0 25px;
+  /* padding-left: 25px;
+  padding-right: 25px; */
   /* background: #d81757; */
   /* transition: all 0.35s ease-in-out; */
 }
@@ -101,4 +102,92 @@ p {
 
 .header .row {
   margin-top: 70px;
+}
+
+/* Featured color components */
+
+.categories {
+  margin: 70px 0;
+}
+
+.small_container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px 25px;
+}
+
+.col_3 {
+  flex-basis: 30%;
+  min-width: 250px;
+  padding: 10px 0;
+}
+
+.col_3 img {
+  width: 100%;
+}
+
+/* featured product controller */
+
+.col_4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+
+.col_4 img {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  line-height: 60px;
+  color: #555555;
+}
+
+.title:after {
+  content: "";
+  background: #ff5355;
+  width: 80%;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  transform: translateX(-50px);
+}
+
+h4 {
+  color: #502e2e;
+  font-weight: normal;
+}
+
+.col_4 p {
+  font-size: 14px;
+}
+
+.rating .fa {
+  color: #fd0d0d;
+}
+.col_4:hover {
+  transform: translateY(-5px);
+}
+.others {
+  display: flex;
+}
+.others > * {
+  flex-basis: 50%;
+}
+
+/* offer components */
+
+.col_2 .offer_img {
+  padding: 50px;
+}
+
+small {
+  color: #383232;
 }
