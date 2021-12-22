@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './App.css';
-import 'tailwindcss/base'
-import '@themesberg/flowbite'
-import './styles/output.css';
+import './styles/index.css';
+import './styles/tailwind.css';
 
 
 import reportWebVitals from './reportWebVitals';
