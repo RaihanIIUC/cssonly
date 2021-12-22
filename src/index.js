@@ -1,7 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import './App.css';
+import 'tailwindcss/base'
+import '@themesberg/flowbite'
+import './styles/output.css';
+
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
