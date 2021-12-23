@@ -6,6 +6,5 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('@themesberg/flowbite/plugin')
   ],
 }
