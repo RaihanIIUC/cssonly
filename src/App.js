@@ -1,11 +1,11 @@
+import Header from "./Pages/Header";
 
 
 function App() {
   return (
 
-    <div className="App bg-red-400">
-
-      <p>hello world</p>
+    <div>
+      <Header />
     </div>
   );
 }
