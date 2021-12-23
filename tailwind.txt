@@ -1,0 +1,7 @@
+npm install tailwindcss@latest
+
+npx tailwindcss init 
+
+
+    "build:css": "tailwind build src/styles/App.css -o src/styles/tailwind.css",
+
