@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.back {
+  background-image: url("https://unsplash.it/804/800");
+}

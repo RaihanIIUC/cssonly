@@ -1,10 +1,14 @@
-import Form from "./components/others/Form";
+import Card from "./components/Card/Card";
+import Header from "./components/Navbar/Header";
+
 
 function App() {
   return (
 
     <div>
-      <Form />
+
+      <Header />
+
     </div>
   );
 }
