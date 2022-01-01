@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Home",
+    "path": "/Home",
+    "component": "/media/raihan/Course Material1/_React js/cssonly/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_16b55a82"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/media/raihan/Course Material1/_React js/cssonly/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_c67dcd42"
+  }
+]
