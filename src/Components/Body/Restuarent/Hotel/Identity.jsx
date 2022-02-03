@@ -4,31 +4,53 @@ import { BsFillHeartFill } from "react-icons/bs";
 
 const Identity = () => {
   return (
-    <div className="flex flex-col     divide-y-8">
-      <div class="  flex  bg-emerald-50  ">
-        <div class="w-full   md:w-1/4 px-4 mb-4 md:mb-0">
-          <div class="flex   md:mb-0">
-            <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0">281</div>
-            <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0">Outlets Nearby</div>
+  <div>
+
+          {/* <div class="  flex  bg-emerald-50  ">
+
+              <div class="w-full   md:w-1/4 px-4 mb-4 md:mb-0">
+
+              </div>
+              <div class=" bg-red-600w-full md:w-2/4 px-4 mb-4 md:mb-0"></div>
           </div>
-        </div>
-        <div class=" bg-red-600w-full md:w-2/4 px-4 mb-4 md:mb-0"></div>
-      </div>
-      <div class="  flex  bg-emerald-50 divide-y-8 divide-y-reverse">
-        <div class="w-full  md:w-1/3 px-4 mb-4 md:mb-0">
-          <div class="flex  md:mb-0">
-            <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">Restaurant</div>
-            <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">Medicine</div>
-            <div class="w-full md:w-1/3 px-4 mb-4 md:mb-0">Groceries</div>
-          </div>
-        </div>
-        <div class=" bg-red-600w-full md:w-2/3 px-4 mb-4 md:mb-0"></div>
-      </div>
-      <section className="relative py-20 lg:pt-32   overflow-x-hidden">
+
+          <div class="  flex  bg-emerald-50 divide-y-8 divide-y-reverse">
+              <div class="w-full  md:w-1/3 px-4 mb-4 md:mb-0">
+                  
+              </div>
+              <div class=" bg-red-600w-full md:w-2/3 px-4 mb-4 md:mb-0"></div>
+          </div> */}
+              
+
+
+
+      <section className="relative    overflow-x-hidden">
         <div className="relative container mx-auto px-4">
-          <h2 className="mb-16 text-4xl md:text-5xl   font-bold font-heading">
+          {/* <h2 className="mb-16 text-4xl md:text-5xl   font-bold font-heading">
             The Most Popular
-          </h2>
+          </h2> */}
+                  <div className=" mb-4  -mx-3">
+                      {/* first border text */}
+                      <div class="flex   md:mb-0 divide-y-reverse divide-y font-bold font-heading ">
+                          <div class="w-full md:w-1/12 px-4 mb-4 md:mb-0">281</div>
+                          <div class="w-full md:w-1/10 mb-4 md:mb-0">Outlets Nearby</div>
+                          <div class="w-full md:w-3/4 md:md-0 "></div>
+                      </div>
+                      {/* first border text end  */}
+
+                      {/* second divide by border box starts */}
+
+                      <div class="flex  md:mb-0 divide-y divide-y-reverse font-bold font-heading ">
+                          <div class="w-full md:w-1/12 px-4 mb-4 md:mb-0">Restaurant</div>
+                          <div class="w-full md:w-1/12 px-4 mb-4 md:mb-0">Medicine</div>
+                          <div class="w-full md:w-1/12 px-4 mb-4 md:mb-0">Groceries</div>
+                          <div className="w-full md:w-2/4"></div>
+                      </div>
+
+                      {/* second end */}
+          </div>
+
+          
           <div className="flex flex-wrap -mx-3">
             <div className="w-full lg:w-1/3 px-3 mb-16 lg:mb-0">
               <a className="block mb-10" href>
