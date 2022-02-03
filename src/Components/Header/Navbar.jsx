@@ -4,7 +4,7 @@ import { BsSearch, BsFillBadge4KFill, BsMinecartLoaded } from "react-icons/bs";
 import { AiTwotoneBell } from "react-icons/ai";
 import { FaCoins, FaUserAlt } from "react-icons/fa";
 import { MdLocationOn, MdOutlineKeyboardArrowDown } from "react-icons/md";
- 
+
 const Navbar = () => {
   return (
     <div>
@@ -18,23 +18,23 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="text-gray-300">
-                              <MdLocationOn className="h-5 w-5 text-blue-500" />
+                <MdLocationOn className="h-5 w-5 text-blue-500" />
               </li>
               <li>
                 <a class="text-sm text-green-600 font-bold" href="#">
-                Current Location:
-                </a>
-              </li>
-              
-              <li>
-                <a class="text-sm text-gray-400 hover:text-gray-500" href="#">
-                                  Dhaka Cantonment 
+                  Current Location:
                 </a>
               </li>
 
-                          <li class="text-gray-300">
-                              <MdOutlineKeyboardArrowDown className="h-5 w-5 text-blue-500" />
-                          </li>
+              <li>
+                <a class="text-sm text-gray-400 hover:text-gray-500" href="#">
+                  Dhaka Cantonment
+                </a>
+              </li>
+
+              <li class="text-gray-300">
+                <MdOutlineKeyboardArrowDown className="h-5 w-5 text-blue-500" />
+              </li>
             </ul>
             <div class="lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-y-1/2 lg:-translate-x-1/2">
               <a class="text-3xl font-bold leading-none" href="#">
@@ -152,7 +152,6 @@ const Navbar = () => {
                   class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl"
                   href="#"
                 >
-                  {" "}
                   Up
                 </a>
               </div>
