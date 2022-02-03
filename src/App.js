@@ -1,12 +1,13 @@
-import Header from "./Pages/Header";
+import Navbar from "./Components/Header/Navbar";
 
+ 
 
 function App() {
   return (
 
     <div>
-      <Header />
-    </div>
+       <Navbar />
+     </div>
   );
 }
 
