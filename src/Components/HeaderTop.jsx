@@ -2,55 +2,30 @@ import React from 'react'
 
 function HeaderTop() {
     return (
-        <div className="container flex items-center  justify-between">
-            {/* logo */}
-            <svg xmlns="http://www.w3.org/2000/svg" className=" w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
-            </svg>
-
-            {/* searchbar  */}
-            <div className="w-full max-w-xl relative flex ">
-
-                <span className="absolute left-4 top-3 text-lg text-gray-400">
-                    <i className="fa fa-search">  </i>
-
-
-                </span>
-                <input type="text" className="w-full border border-red-400 border-r-0 pl-12 py-3 rounded-l-md focus:outline-none" />
-                <button className="bg-red-400 border border-red-200 text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">Search</button>
+       
+        <header class="text-gray-600 body-font shadow-2xl">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+                    <a class="mr-5 hover:text-gray-900">First Link</a>
+                    <a class="mr-5 hover:text-gray-900">Second Link</a>
+                    <a class="mr-5 hover:text-gray-900">Third Link</a>
+                    <a class="hover:text-gray-900">Fourth Link</a>
+                </nav>
+                <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
+                    <span class="ml-3 text-xl">Tailblocks</span>
+                </a>
+                <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+                    <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </div>
             </div>
-
-
-            {/* icons */}
-
-            <div className="flex items-center space-x-4">
-
-                <a href="" className="text-center text-gray-700 hover:text-red-500 transition relative ">
-                    <div className="text-2xl">
-                        <i className="fa fa-heart"></i>
-
-                    </div>
-                    <div className="text-xs leading-3">Wish list</div>
-                    <span className="absolute right-0 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-red-500 text-white text-xs">8</span>
-                </a>
-                <a href="" className="text-center text-gray-700 hover:text-red-500 transition relative ">
-                    <div className="text-2xl">
-                        <i className="fa fa-shopping-bag"></i>
-
-                    </div>
-                    <div className="text-xs leading-3">Cart</div>
-                    <span className="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-red-500 text-white text-xs">8</span>
-                </a>
-                <a href="" className="text-center text-gray-700 hover:text-red-500 transition relative ">
-                    <div className="text-2xl">
-                        <i className="fa fa-user"></i>
-
-                    </div>
-                    <div className="text-xs leading-3">Account</div>
-
-                </a>
-            </div>
-        </div>
+        </header>
 
     )
 }
