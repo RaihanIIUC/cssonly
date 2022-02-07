@@ -12,7 +12,8 @@ chesse . From then i never looks back for frontend. This i actually implement a 
  - [frontendmentor](https://www.frontendmentor.io/home)
  - [cssbattle](https://cssbattle.dev/)
  - [shuffle dev](https://shuffle.dev/)
-
+ - [React icons](https://react-icons.github.io/react-icons/search?q=heart)
+ - [Tailwind css](https://tailwindcss.com/docs/outline-width)
 
 ## Screenshots
 
@@ -164,4 +165,52 @@ chesse . From then i never looks back for frontend. This i actually implement a 
                     </div>
                 </div>
             </div>
+````
+
+## React icons 
+A lot of time I have to face lots of problems in Icon implementation. These react-icons combine all the icons in one place and easy to use.Just adding an address is changing the icon game. Let's Play the Icon Game.
+
+```javascripts
+If we need a Bootstrap icons then just
+import { IconName } from "react-icons/bs";
+if it is Ant design then
+import { IconName } from "react-icons/ai";
+if it's FontAwesome icons then
+import { IconName } from "react-icons/fa";
+
+and to add className to icons is ,
+<BsSearch className="h-5 w-5 text-blue-500" />
+
+````
+
+## tailwind Width Percentenge
+
+````javascript
+w-1/2	width: 50%;
+w-1/3	width: 33.333333%;
+w-2/3	width: 66.666667%;
+w-1/4	width: 25%;
+w-2/4	width: 50%;
+w-3/4	width: 75%;
+w-1/5	width: 20%;
+w-2/5	width: 40%;
+w-3/5	width: 60%;
+w-4/5	width: 80%;
+w-1/6	width: 16.666667%;
+w-2/6	width: 33.333333%;
+w-3/6	width: 50%;
+w-4/6	width: 66.666667%;
+w-5/6	width: 83.333333%;
+w-1/12	width: 8.333333%;
+w-2/12	width: 16.666667%;
+w-3/12	width: 25%;
+w-4/12	width: 33.333333%;
+w-5/12	width: 41.666667%;
+w-6/12	width: 50%;
+w-7/12	width: 58.333333%;
+w-8/12	width: 66.666667%;
+w-9/12	width: 75%;
+w-10/12	width: 83.333333%;
+w-11/12	width: 91.666667%;
+w-full	width: 100%;
 ````
