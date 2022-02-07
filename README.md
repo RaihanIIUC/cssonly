@@ -98,3 +98,70 @@ chesse . From then i never looks back for frontend. This i actually implement a 
       </section>
 ```
 
+## Food Box using tailwind
+
+
+````javascript
+  <div className="w-full lg:w-1/3 px-3 mb-16 lg:mb-0 hover:shadow-xl hover:translate-x-1">
+                <a className="block mb-10" href>
+                    <div className="relative">
+                        <img
+                            className="w-full   object-cover"
+                            src="images/sausly-s-cover-1637130769640.jpeg"
+                            alt
+                        />
+                    </div>
+                    <div className="mt-12">
+                        <div className="mb-2 flex items-center justify-center md:mb-0">
+
+                            <div className="md:w-1/5   mb-4 md:mb-0 flex  
+                          w-16 h-16   rounded-5xl  ">
+                                <img
+                                    className=" rounded-lg"
+                                    src="images/north-end-coffee-roasters-logo-1629873428586.png"
+                                    alt="food"
+                                />
+                            </div>
+
+                            <div class="w-full md:w-8/12 mb-4 md:mb-0">
+                                <h3 className="mb-3 text-xl text-[#292f48] opacity-75 font-bold font-heading truncate">
+                                    Salimar Garden Restora - Banani
+                                </h3>
+                                <p className="text-xl font-bold font-heading  ">
+                                    <span className="text-xs px-1 text-gray-500 font-semibold font-heading">
+                                        Bengali
+                                    </span>
+                                    <span className="text-xs px-1 text-gray-500 font-semibold font-heading">
+                                        Indian
+                                    </span>
+                                    <span className="text-xs  px-1 text-gray-500 font-semibold font-heading">
+                                        Kababi
+                                    </span>
+                                </p>
+                            </div>
+                            <div class="w-full md:w-1/6 mb-4 md:mb-0 flex flex-row divide-y-reverse">
+                                <AiFillStar className="h-5 w-5 text-orange-400" />
+                                <p>3.6/5</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {/* last sub box starts */}
+                <div className="flex md:mb-0">
+                    <div class="w-full md:w-1/6 md:mb-0 flex items-center gap-2">
+                        <BsFillHeartFill className="h-5 w-5 text-teal-300" />
+                        <p>134</p>
+                    </div>
+                    <div className="md:w-8/12"></div>
+
+                    <div class="w-full md:w-1/5 md:mb-0">
+                        <a
+                            className="inline-block font-bold font-heading rounded-md transition duration-200"
+                            href="#"
+                        >
+                            Tk.244
+                        </a>
+                    </div>
+                </div>
+            </div>
+````
