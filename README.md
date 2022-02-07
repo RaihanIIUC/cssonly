@@ -1,70 +1,100 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Using Only CSS
 
-## Available Scripts
+In this respiratory i actually make my hands on practice about 
+various css framwwork. In the first time i only practicing css using 
+css and then it looks prety promising for me to work on tailwind css , inspired by Azim vaia , It actually moved my
+chesse . From then i never looks back for frontend. This i actually implement a hard one that i never thinks that i can but i done it.
 
-In the project directory, you can run:
 
-### `npm start`
+## Acknowledgements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ - [frontendmentor](https://www.frontendmentor.io/home)
+ - [cssbattle](https://cssbattle.dev/)
+ - [shuffle dev](https://shuffle.dev/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Header Screenshots](https://user-images.githubusercontent.com/51045712/152744949-94c6ccfe-c2c1-4ac6-9cbf-363f74d39134.png)
 
-### `npm run build`
+![Restuarent Screenshots](https://user-images.githubusercontent.com/51045712/152745148-bba77144-e336-4930-98c9-b2d6e66470ca.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/51045712/152745378-f4305955-8dc0-434a-b0ae-24107c4b25b8.png)
+## Roadmap
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- firstly creating Header with shadow
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- food list box
 
-### `npm run eject`
+- in details page , then cart box 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- image with overlay text
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Text overly on image , food details
 
-## Learn More
+```javascript
+    <section class="px-4 lg:py-5 lg:px-16">
+        <div class="relative py-14 xl:py-52">
+          <img
+            className="absolute top-0 left-0 rounded-xl h-3/5 object-cover  w-full"
+            src="images/cover-1606641339341.jpg"
+            alt
+          />
+          <div class="relative container px-4 mx-auto">
+            <div class="px-2 md:pl-5">
+              {/* new components for text over image  starts */}
+              <div className=" flex items-center justify-center md:mb-0 gap-1">
+                <div
+                  className="md:w-1/12 md:mb-0 flex  
+                            rounded-5xl  "
+                >
+                  <img
+                    className=" rounded-lg"
+                    src="images/north-end-coffee-roasters-logo-1629873428586.png"
+                    alt="food"
+                  />
+                </div>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+                <div class="w-full md:w-4/12 md:mb-0">
+                  <div className=" text-xl  flex flex-row  gap-1 font-bold font-heading truncate  items-center">
+                    <h3 className="text-white ">Salimar Garden- Banani</h3>
+                    <span>
+                      <AiOutlineInfoCircle className="h-5 w-5 text-white" />
+                    </span>
+                    <span>
+                      <AiFillStar className="h-5 w-5 text-white" />
+                    </span>
+                    <p className="text-white">3.6/5</p>
+                  </div>
+                  <p className="text-xl font-bold font-heading  flex flex-row items-center">
+                    <span className="text-xs px-1 text-white  font-semibold font-heading">
+                      Bengali
+                    </span>
+                    <span className="text-xs px-1 text-white  font-semibold font-heading">
+                      Indian
+                    </span>
+                    <span className="text-xs  px-1 text-white font-semibold font-heading">
+                      Kababi
+                    </span>
+                    <BsDot className="h-5 w-5 text-white" />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+                    <span className="text-xs  px-1 text-white font-semibold font-heading">
+                      Open now
+                    </span>
+                  </p>
+                </div>
+                <div className="md:w-3/5 md:mb-0 flex flex-row-reverse items-center text-white  gap-2 ">
+                  <p>Tk.122</p>
+                  <BsHeart className="h-10 w-10 " />
+                </div>
+              </div>
+              {/* ends */}
+            </div>
+          </div>
+        </div>
+      </section>
+```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
